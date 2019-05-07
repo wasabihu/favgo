@@ -1,0 +1,58 @@
+
+html, body { margin: 0; padding: 0; width: 100%; height: 100%; font: normal normal normal 12px/160% 'Microsoft Yahei', Tahoma, Helvetica, SimSun, sans-serif, "宋体"; line-height: 22px; overflow: hidden; }
+input, textarea, select { margin: 0; }
+.clearfix:after { content: "."; display: block; height: 0; visibility: hidden; clear: both; }
+.clearfix { zoom: 1; }
+.clear { clear: both; }
+.alignleft { text-align: left; }
+.alignright { text-align: right; }
+a { color: #333; text-decoration: none; }
+a:hover { text-decoration: underline; }
+#header { border-bottom: 1px solid #333; line-height: 40px; text-indent: 10px; font-size: 18px; width:100% }
+	#header .header-right{ font-size: 12px; float: right; margin-right: 10px; }
+#center {}
+	#left { width: 170px; padding: 10px 0; float: left; border-right: 1px solid #333; }
+		#left .menu { list-style: none; margin: 0; padding: 0; }
+			#left .menu li { list-style: none; }
+				#left .menu li a { padding: 0 15px; display: block; color: #333; text-decoration: none; line-height: 26px; }
+				#left .menu li a:hover { text-decoration: underline; }
+				#left .menu li a.cur, #left .menu li a.cur:hover { background: #999; color: #FFF; }
+	#right { float: left; overflow-y: auto; padding: 10px; }
+		#right h3 { margin: 0 0 5px 0; }
+			#right h3 a { color:black; }
+			#right h3 span { font-size: 12px; font-weight: normal; }
+			#right h3 .search { float: right; }
+				#right h3 .search input { margin: 0; }
+		#right table.list { text-align: left; line-height: 26px; }
+			#right table.list tr:hover { background: #EEE; }
+			#right table.list tr.hd, #right table.list tr.hd:hover { background: #DDD; }
+			#right table.list th { padding: 0 5px; border-bottom: 1px solid #EEE; }
+			#right table.list td { padding: 0 5px; border-bottom: 1px solid #EEE; }
+			#right table.list td.action { word-spacing:3px; }
+			#right table.list td input.text { padding: 2px; border: none; max-width: 40px; }
+			#right table.list td.paged, #right table.list td.paged:hover { border: none; background: #FFF; }
+		#right table.form { line-height: 30px; }
+			#right table.form td { padding: 5px 0; border-bottom: 1px solid #EEE; }
+			#right table.form input[type=text] { padding: 5px; border: 1px solid #DDD; }
+			#right table.form .text { width: 50%; padding: 5px; border: 1px solid #DDD; }
+			#right table.form textarea { margin-left: 0; width: 50%; padding: 5px; border: 1px solid #DDD; }
+			#right table.form select { padding: 5px; border: 1px solid #DDD; }
+		#right div.list { padding:5px 5px 10px; border-bottom:1px solid #666; }
+			#right div.list span.date { color:grey; }
+			#right div.list:hover { background: #EEE; }
+		#right div.cover-list {}
+			#right div.cover-list div.cover { width: 400px; height: 240px; float: left; overflow: hidden; margin: 5px; }
+				#right div.cover-list div.cover-pic { width: 400px; height: 220px; float: left; overflow: hidden; }
+					#right div.cover-list div.cover-pic img { width: 400px; }
+				#right div.cover-list div.cover-opt { text-align: right; }
+		#right div.cover-list-2 {}
+			#right div.cover-list-2 div.cover { width:100px; height:120px; float:left; overflow:hidden; margin:5px; }
+				#right div.cover-list-2 div.cover-pic { width:100px; height:100px; float:left; overflow:hidden; }
+					#right div.cover-list-2 div.cover-pic img { max-width: 100px; max-height:100px; }
+				#right div.cover-list-2 div.cover-opt {}
+		#right div.image-list{}
+			#right div.image-list div.image{ width:200px; height:220px; float:left; overflow:hidden; margin:5px; }
+				#right div.image-list div.image-pic{ width:200px; height:200px; float:left; overflow:hidden; }
+					#right div.image-list div.image-pic img{ max-width: 200px; max-height:200px; }
+				#right div.image-list div.image-opt{ text-align: right;}
+#footer {}  
