@@ -14,7 +14,7 @@ import (
 var itemLsMap sync.Map
 var globalSessions *session.Manager
 //var uid int64 = 1659969325
-var uid int64 = 0
+//var uid int64 = 0
 
 
 type MainController struct {
@@ -27,7 +27,7 @@ type ProfController struct {
 
 
 func GetSessUid(ctx *context.Context) int64{
-	//var uid int64 = 0
+	var uid int64 = 0
 	if uid <= 0 {
 		sess, _ := globalSessions.SessionStart(ctx.ResponseWriter, ctx.Request)
 		defer sess.SessionRelease(ctx.ResponseWriter)
