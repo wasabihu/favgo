@@ -30,6 +30,7 @@
         {{end}}
 {{end}}
 </div>
+	<div><a class="hyplink" href="http://www.beian.miit.gov.cn/" target="_blank" alt="">粤ICP备16031203号</a></div>
 </div>
 
 <div id="tabsEx2" style="height: 730px;" class="table_style">
@@ -102,5 +103,6 @@
 
 </div><!--END contentDIV-->
 </div><!--END page -->
+<div></div>
 </body>
 </html>
